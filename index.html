@@ -29,6 +29,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <script src = "https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+  <script type = "text/javascript" src = "index.js"></script>
+
 
 </head>
 
@@ -582,14 +585,14 @@
                     document.addEventListener("DOMContentLoaded", () => {
                       new ApexCharts(document.querySelector("#reportsChart"), {
                         series: [{
-                          name: 'Sales',
-                          data: [31, 40, 28, 51, 42, 82, 56],
+                          name: 'Reps',
+                          data: [0, 0, 0, 0, 42, 82, 56],
+                        }, {
+                          name: 'Calories',
+                          data: [0, 0, 0, 0, 34, 52, 41]
                         }, {
                           name: 'Revenue',
-                          data: [11, 32, 45, 32, 34, 52, 41]
-                        }, {
-                          name: 'Customers',
-                          data: [15, 11, 32, 18, 9, 24, 11]
+                          data: [0, 0, 0, 0, 9, 24, 11]
                         }],
                         chart: {
                           height: 350,
@@ -620,7 +623,7 @@
                         },
                         xaxis: {
                           type: 'datetime',
-                          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                          categories: [ "2022-10-24T04:30:00.000Z", "2022-10-24T05:30:00.000Z", "2022-10-25T06:30:00.000Z", "2022-10-26T06:30:00.000Z", "2022-10-27T06:30:00.000Z", "2022-10-28T06:30:00.000Z", "2022-10-29T06:30:00.000Z"]
                         },
                         tooltip: {
                           x: {
@@ -1106,6 +1109,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script></script>
 
   <script type="module">
     // Import the functions you need from the SDKs you need
