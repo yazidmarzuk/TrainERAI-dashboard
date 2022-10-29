@@ -31,7 +31,21 @@
 
   <script src = "https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
   <script type = "text/javascript" src = "index.js"></script>
-
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css"
+  rel="stylesheet"
+/>
 
 </head>
 
@@ -83,8 +97,8 @@
             <li class="notification-item">
               <i class="bi bi-exclamation-circle text-warning"></i>
               <div>
-                <h4>Lorem Ipsum</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
+                <h4>Erai</h4>
+                <p>Your workout routine will start in 1 hour</p>
                 <p>30 min. ago</p>
               </div>
             </li>
@@ -96,8 +110,8 @@
             <li class="notification-item">
               <i class="bi bi-x-circle text-danger"></i>
               <div>
-                <h4>Atque rerum nesciunt</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
+                <h4>Erai</h4>
+                <p>Please update your gender</p>
                 <p>1 hr. ago</p>
               </div>
             </li>
@@ -109,9 +123,9 @@
             <li class="notification-item">
               <i class="bi bi-check-circle text-success"></i>
               <div>
-                <h4>Sit rerum fuga</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
-                <p>2 hrs. ago</p>
+                <h4>Erai</h4>
+                <p>You have sucessfully completed your workout session</p>
+                <p>23 hrs. ago</p>
               </div>
             </li>
 
@@ -122,8 +136,8 @@
             <li class="notification-item">
               <i class="bi bi-info-circle text-primary"></i>
               <div>
-                <h4>Dicta reprehenderit</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
+                <h4>Yazid from Team TrainERAI</h4>
+                <p>Mobile version of TrainErai is now available on AppStore and PlayStore</p>
                 <p>4 hrs. ago</p>
               </div>
             </li>
@@ -159,7 +173,7 @@
               <a href="#">
                 <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
                 <div>
-                  <h4>Shezin, Trainer </h4>
+                  <h4>Shezin</h4><span class="badge bg-primary">Trainer</span>
                   <p>Great Workout Session Today, Santo. Tomorrow Focus on your Biceps...</p>
                   <p>4 hrs. ago</p>
                 </div>
@@ -173,7 +187,7 @@
               <a href="#">
                 <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
                 <div>
-                  <h4>Sreerag, Friend</h4>
+                  <h4>Sreerag</h4><span class="badge bg-success">Friend</span>
                   <p>Beat my new record of 210 in boxing game...</p>
                   <p>6 hrs. ago</p>
                 </div>
@@ -187,7 +201,7 @@
               <a href="#">
                 <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
                 <div>
-                  <h4>Yazid Marzuk </h4>
+                  <h4>Yazid Marzuk</h4><span class="badge bg-success">Friend</span>
                   <p>Keep Achieving Targets...</p>
                   <p>8 hrs. ago</p>
                 </div>
@@ -337,8 +351,7 @@
                     </div>
                     <div class="ps-3">
                       <h6>145</h6>
-                      <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      
                     </div>
                   </div>
                 </div>
@@ -364,7 +377,7 @@
                 </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Earnings <span>| Today</span></h5>
+                  <h5 class="card-title">Earnings <span>| This month</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -372,8 +385,7 @@
                     </div>
                     <div class="ps-3">
                       <h6>₹657</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      
                     </div>
                   </div>
                 </div>
@@ -383,7 +395,7 @@
 
              <!-- Revenue Card -->
              <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
+              <div class="card info-card pull-card">
 
                 <div class="filter">
                   <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -403,15 +415,14 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cursor"></i>
+                      <i class="fas fa-fist-raised"></i>
                     </div>
                     <div class="ps-3">
                       <h6>20 Reps</h6>
-                      <h7>20 Calories burned </h7>
-                      <br>
                       
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      
+                      
+                      
                     </div>
                   </div>
                 </div>
@@ -420,7 +431,7 @@
             </div><!-- End Revenue Card -->
              <!-- Revenue Card -->
              <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
+              <div class="card info-card push-card">
 
                 <div class="filter">
                   <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -440,12 +451,11 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cash-stack"></i>
+                      <i class="fas fa-dumbbell"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>₹657</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      <h6>30 Reps</h6>
+                      
                     </div>
                   </div>
                 </div>
@@ -454,7 +464,7 @@
             </div><!-- End Revenue Card -->
              <!-- Revenue Card -->
              <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
+              <div class="card info-card leg-card">
 
                 <div class="filter">
                   <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -474,12 +484,11 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cash-stack"></i>
+                      <i class="fas fa-socks"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>₹657</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      <h6>15 Reps</h6>
+                      
                     </div>
                   </div>
                 </div>
@@ -488,7 +497,7 @@
             </div><!-- End Revenue Card -->
              <!-- Revenue Card -->
              <div class="col-xxl-4 col-md-6">
-              <div class="card info-card revenue-card">
+              <div class="card info-card boxing-card">
 
                 <div class="filter">
                   <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
@@ -508,12 +517,11 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cash-stack"></i>
+                      <i class="far fa-hand-rock"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>₹657</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      <h6>2 min</h6>
+                      
                     </div>
                   </div>
                 </div>
@@ -544,7 +552,7 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-people"></i>
+                      <i class="fas fa-heart"></i>
                     </div>
                     <div class="ps-3">
                       <h6>BMI: 27.8</h6>
@@ -666,47 +674,47 @@
                     <thead>
                       <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Customer</th>
-                        <th scope="col">Product</th>
-                        <th scope="col">Price</th>
+                        <th scope="col">Workout</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Accuracy</th>
                         <th scope="col">Status</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Brandon Jacob</td>
-                        <td><a href="#" class="text-primary">At praesentium minu</a></td>
-                        <td>$64</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">12</a></th>
+                        <td>Squats</td>
+                        <td><a href="#" class="text-primary">2:00</a></td>
+                        <td>89</td>
+                        <td><span class="badge bg-success">Good</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2147</a></th>
-                        <td>Bridie Kessler</td>
-                        <td><a href="#" class="text-primary">Blanditiis dolor omnis similique</a></td>
-                        <td>$47</td>
-                        <td><span class="badge bg-warning">Pending</span></td>
+                        <th scope="row"><a href="#">11</a></th>
+                        <td>Plank</td>
+                        <td><a href="#" class="text-primary">1:00</a></td>
+                        <td>74</td>
+                        <td><span class="badge bg-warning">Average</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2049</a></th>
-                        <td>Ashleigh Langosh</td>
-                        <td><a href="#" class="text-primary">At recusandae consectetur</a></td>
-                        <td>$147</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">10</a></th>
+                        <td>Pullups</td>
+                        <td><a href="#" class="text-primary">3:00</a></td>
+                        <td>91</td>
+                        <td><span class="badge bg-success">Good</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Angus Grady</td>
-                        <td><a href="#" class="text-primar">Ut voluptatem id earum et</a></td>
-                        <td>$67</td>
-                        <td><span class="badge bg-danger">Rejected</span></td>
+                        <th scope="row"><a href="#">9</a></th>
+                        <td>Bicep Curls</td>
+                        <td><a href="#" class="text-primar">4:00</a></td>
+                        <td>67</td>
+                        <td><span class="badge bg-danger">Try Again</span></td>
                       </tr>
                       <tr>
-                        <th scope="row"><a href="#">#2644</a></th>
-                        <td>Raheem Lehner</td>
-                        <td><a href="#" class="text-primary">Sunt similique distinctio</a></td>
-                        <td>$165</td>
-                        <td><span class="badge bg-success">Approved</span></td>
+                        <th scope="row"><a href="#">8</a></th>
+                        <td>lunges</td>
+                        <td><a href="#" class="text-primary">2:00</a></td>
+                        <td>95</td>
+                        <td><span class="badge bg-success">Good</span></td>
                       </tr>
                     </tbody>
                   </table>
@@ -747,7 +755,7 @@
                   <div class="activite-label">32 min</div>
                   <i class='bi bi-circle-fill activity-badge text-success align-self-start'></i>
                   <div class="activity-content">
-                    Quia quae rerum <a href="#" class="fw-bold text-dark">explicabo officiis</a> beatae
+                    Started new push session
                   </div>
                 </div><!-- End activity item-->
 
@@ -755,7 +763,7 @@
                   <div class="activite-label">56 min</div>
                   <i class='bi bi-circle-fill activity-badge text-danger align-self-start'></i>
                   <div class="activity-content">
-                    Voluptatem blanditiis blanditiis eveniet
+                    Started new pull session
                   </div>
                 </div><!-- End activity item-->
 
@@ -763,7 +771,7 @@
                   <div class="activite-label">2 hrs</div>
                   <i class='bi bi-circle-fill activity-badge text-primary align-self-start'></i>
                   <div class="activity-content">
-                    Voluptates corrupti molestias voluptatem
+                    Received 4 coins as rewards
                   </div>
                 </div><!-- End activity item-->
 
@@ -771,7 +779,7 @@
                   <div class="activite-label">1 day</div>
                   <i class='bi bi-circle-fill activity-badge text-info align-self-start'></i>
                   <div class="activity-content">
-                    Tempore autem saepe <a href="#" class="fw-bold text-dark">occaecati voluptatem</a> tempore
+                    Started a new workout session
                   </div>
                 </div><!-- End activity item-->
 
@@ -779,16 +787,11 @@
                   <div class="activite-label">2 days</div>
                   <i class='bi bi-circle-fill activity-badge text-warning align-self-start'></i>
                   <div class="activity-content">
-                    Est sit eum reiciendis exercitationem
+                    Started a new workout session
                   </div>
                 </div><!-- End activity item-->
 
-                <div class="activity-item d-flex">
-                  <div class="activite-label">4 weeks</div>
-                  <i class='bi bi-circle-fill activity-badge text-muted align-self-start'></i>
-                  <div class="activity-content">
-                    Dicta dolorem harum nulla eius. Ut quidem quidem sit quas
-                  </div>
+                
                 </div><!-- End activity item-->
 
               </div>
@@ -957,15 +960,9 @@
   <!-- ======= Footer ======= -->
   <footer id="footer" class="footer">
     <div class="copyright">
-      &copy; Copyright <strong><span>NiceAdmin</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>TrainERAI</span></strong>. All Rights Reserved
     </div>
-    <div class="credits">
-      <!-- All the links in the footer should remain intact. -->
-      <!-- You can delete the links only if you purchased the pro version. -->
-      <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
+    
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

@@ -150,7 +150,7 @@ h6 {
 }
 
 .dropdown-menu .dropdown-item:hover {
-  background-color: #f6f9ff;
+  background-color: #4b4c4f;
 }
 
 @media (min-width: 768px) {
@@ -158,7 +158,7 @@ h6 {
     content: "";
     width: 13px;
     height: 13px;
-    background: #fff;
+    background: #153B44;
     position: absolute;
     top: -7px;
     right: 20px;
@@ -841,8 +841,29 @@ h6 {
   background: #f6f6fe;
 }
 
+
 .dashboard .revenue-card .card-icon {
   color: #2eca6a;
+  background: #e0f8e9;
+}
+
+.dashboard .pull-card .card-icon {
+  color: #e83002;
+  background: #f9dbdb;
+}
+
+.dashboard .push-card .card-icon {
+  color: #cb6601;
+  background: #f7eeda;
+}
+
+.dashboard .leg-card .card-icon {
+  color: #ca2eba;
+  background: #f6e0f8;
+}
+
+.dashboard .boxing-card .card-icon {
+  color: #5e0dbb;
   background: #e0f8e9;
 }
 
